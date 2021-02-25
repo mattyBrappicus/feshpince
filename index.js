@@ -1,5 +1,5 @@
 function misc_yeaah() {
-  var audio1 = new Audio('../audio/misc_yeaah.wav');
+  var audio1 = new Audio('misc_yeaah.wav');
   audio1.play();
 }
 function g_no_2() {
