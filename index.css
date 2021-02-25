@@ -1,0 +1,113 @@
+body{
+	margin: 0px;
+	color:rgb(255,0,0);
+}
+#title{
+	background-color: rgb(47,0,30);
+	text-align: center;
+	margin: 0px, auto;
+}
+#top{
+	background-color: rgb(0,0,255);
+	text-align: center;
+	margin: 0, auto;
+}
+#topbuttons{
+	display: grid;
+	grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+	grid-template-rows: auto;
+	text-align: center;
+	margin: 0px, auto;
+}
+#buttons{
+	background-color: rgb(0,255,0);
+	text-align: center;
+	margin: 0px, auto;
+}
+
+.buttontop {
+  display: inline-block;
+  padding: 16px;
+	width: 90%;
+	text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  color: #fff;
+  background-color: #66a3ff;
+  border: 2px solid #1a75ff;
+  border-radius: 15px;
+  box-shadow: 0 9px #1a75ff;
+  cursor: pointer;
+}
+.buttontop:hover {background-color: #4d94ff}
+.buttontop:active {
+  background-color: #4d94ff;
+  box-shadow: 0 5px #1a75ff;
+  transform: translateY(4px);
+}
+
+.button {
+  display: inline-block;
+  padding: 16px;
+	margin-top: 24px;
+	width: 90%;
+	text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  color: #fff;
+  background-color: #66a3ff;
+  border: 2px solid #1a75ff;
+  border-radius: 15px;
+  box-shadow: 0 9px #1a75ff;
+  cursor: pointer;
+}
+.button:hover {background-color: #4d94ff}
+.button:active {
+  background-color: #4d94ff;
+  box-shadow: 0 5px #1a75ff;
+  transform: translateY(4px);
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+  padding: 0px;
+}
+.column img {
+  margin-top: 24px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1{
+	font-size: 250%; font-weight: 900; font-family: 'Rubik', sans-serif;
+	padding-top: 10px;
+	margin: 0;
+}
+h2{
+	font-size: 180%; font-family: 'Rubik', sans-serif;
+}
+h3{
+	font-size: 100%; font-family: 'Rubik', sans-serif;
+}
+h4{
+	font-size: 100%; font-family: 'Rubik', sans-serif;
+	padding-bottom: 10
+	0px;
+	margin: 0;
+}
+h5{
+	font-size: 180%; font-family: 'Rubik', sans-serif;
+	padding-top: 15px;
+	margin: 0;
+}
+h6{
+	font-size: 100%; font-family: 'Rubik', sans-serif;
+	padding-bottom: 10
+	0px;
+	margin: 0;
+}
