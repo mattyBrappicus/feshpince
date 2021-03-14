@@ -128,7 +128,10 @@ body{
   background: #55ACEE;
   color: white;
 }
-
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
 h1{
 	font-size: 36px; font-weight: 900; font-family: 'Rubik', sans-serif;
 	padding-top: 10px;
